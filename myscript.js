@@ -17,14 +17,9 @@ function checkWinner(playerSelection, computerSelection) {
     else {
         return "Computer"
     }
-
-<<<<<<< HEAD
-    function playRound(playerSelection, computerselection) {
-=======
 }
 
 function playRound(playerSelection, computerSelection) {
->>>>>>> f37e81c (finish game)
         const result = checkWinner(playerSelection, computerSelection)
 
         if (result == "Tie") {
@@ -36,12 +31,6 @@ function playRound(playerSelection, computerSelection) {
         }
     }
 
-<<<<<<< HEAD
-    function getPlayerChoice () {
-    }
-    
-}
-=======
 function getPlayerChoice () {
         let validatedInput = false;
         while (validatedInput == false){
@@ -84,4 +73,3 @@ function getPlayerChoice () {
 }
 
 game ();
->>>>>>> f37e81c (finish game)
