@@ -49,7 +49,7 @@ function getPlayerChoice () {
     function game () {
         let scorePlayer = 0;
         let scorePC= 0;
-        for (let i=0; i <5; i++) {
+         for (let i=0; i <5; i++) {
             const playerSelection = getPlayerChoice();
             const computerSelection = getComputerChoice();
             console.log(playRound(playerSelection, computerSelection));
@@ -71,5 +71,13 @@ function getPlayerChoice () {
     }
 
 }
+
+const rock = document.getElementById("rock")
+const paper = document.getElementById("paper")
+const scissors = document.getElementById("scissors")
+
+rock.addEventListener("click", function(e) {
+    console.log("penis");
+});
 
 game ();
